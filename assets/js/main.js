@@ -22,19 +22,16 @@
 
         if (hash == '#header') {
           $('#header').removeClass('header-top');
-          $("section").removeClass('section-show');
           return;
         }
 
         if (!$('#header').hasClass('header-top')) {
           $('#header').addClass('header-top');
           setTimeout(function() {
-            $("section").removeClass('section-show');
-            $(hash).addClass('section-show');
+    
           }, 350);
         } else {
-          $("section").removeClass('section-show');
-          $(hash).addClass('section-show');
+    
         }
 
         if ($('body').hasClass('mobile-nav-active')) {
@@ -152,7 +149,7 @@
 
   $(".countDownDate").each(function(){
     // Set the date we're counting down to
-    var countDownDate = new Date("Aug 01, 2023 00:00:00").getTime();
+    var countDownDate = new Date("Nov 11, 2023 00:00:00").getTime();
     
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -171,7 +168,7 @@
     document.getElementById("second").innerHTML =seconds; 
     if (t < 0) { 
             clearInterval(x); 
-            document.getElementById("demo").innerHTML = "TIME UP"; 
+            document.getElementById("demo").innerHTML = "ELECTION DAY"; 
             document.getElementById("day").innerHTML ='0'; 
             document.getElementById("hour").innerHTML ='0'; 
             document.getElementById("minute").innerHTML ='0' ; 

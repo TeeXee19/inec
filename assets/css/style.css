@@ -234,23 +234,26 @@ section .container {
   display: flex;
   align-items: center;
   padding: 40px;
-  background: rgb(21 35 24);
+  background: rgb(255, 255, 255);
   transition: ease-in-out 0.3s;
+  border-bottom: 4px solid #0d6838;
+  box-shadow: 6px 6px 3px 0px rgb(4 4 4 / 10%);
+  width: 100%;
 }
 
 .interests .icon-box i {
-  font-size: px;
+  font-size: 30px;
   padding-right: 10px;
   line-height: 1;
 }
 
 .interests .icon-box h3 {
-  font-weight: 700;
+  font-weight: 900;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-size: 16px;
-  color: #fff;
+  color: #000000;
 }
 
 .interests .icon-box:hover {
@@ -412,6 +415,7 @@ section .container {
   border-radius: 1px;
   background: #5fa15f;
   font-size: 50px;
+  font-weight: 900;
 }
 
 @media (max-width: 700px) {
@@ -467,4 +471,9 @@ section .container {
   margin-top: 2%;
   text-align: center;
   color: #000;
+}
+
+.call-links{
+  font-weight: 800;
+  font-size: 30px;
 }

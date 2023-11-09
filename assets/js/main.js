@@ -149,7 +149,7 @@
 
   $(".countDownDate").each(function(){
     // Set the date we're counting down to
-    var countDownDate = new Date("Nov 11, 2023 00:00:00").getTime();
+    var countDownDate = new Date("Nov 11, 2023 08:30:00").getTime();
     
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -168,7 +168,7 @@
     document.getElementById("second").innerHTML =seconds; 
     if (t < 0) { 
             clearInterval(x); 
-            document.getElementById("demo").innerHTML = "ELECTION DAY"; 
+            document.getElementById("demo").innerHTML = "The Election has started, go and VOTE!"; 
             document.getElementById("day").innerHTML ='0'; 
             document.getElementById("hour").innerHTML ='0'; 
             document.getElementById("minute").innerHTML ='0' ; 
